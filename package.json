@@ -1,23 +1,28 @@
 {
-  "name": "portfolio-generator",
+  "name": "project",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dodgemech/Portfolio-Generator.git"
+  "scripts": {
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dodgemech/Portfolio-Generator.git"
+  },
   "bugs": {
     "url": "https://github.com/Dodgemech/Portfolio-Generator/issues"
   },
   "homepage": "https://github.com/Dodgemech/Portfolio-Generator#readme",
-  "dependencies": {
-    "inquirer": "^8.2.4"
-  }
+  "description": ""
 }
